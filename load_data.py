@@ -28,4 +28,18 @@ if __name__ == "__main__":
     print(power_W)
     sorted_power_W = bubble_sort(power_W)
     print(sorted_power_W[::-1])
+
+    time_array = list(range(0, 1804, 1))
+    print(time_array)
+
+    # Example data
   
+    # Create a simple line plot
+    plt.plot(time_array, sorted_power_W[::-1])
+    plt.xlabel("X-axis")
+    plt.ylabel("Y-axis")
+    plt.title("Simple Line Plot")
+    plt.show()
+    
+
+ 
